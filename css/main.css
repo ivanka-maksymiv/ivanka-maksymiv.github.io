@@ -1,0 +1,493 @@
+*{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+/* Загальний блок */
+.header
+{
+    width: 100%;
+    height: 917px;
+}
+
+/* Головне меню */
+.blok{
+    width: 490px;
+    height: 40px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 10px;   
+}
+
+.menu{
+    text-decoration: none;
+    color:#000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.this_page{    
+    color: #2785F7;
+}
+
+
+
+/* Контент сірий блок*/
+.content{
+    margin: 0px auto;
+    width: 1300px;
+    height: 726px;
+    background-color:#EAEBED;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+/* бокове меню */
+.side{
+    width: 158px;
+    height: 726px;
+}
+.ob{
+    width: 105px;
+    height: 420px;
+    margin: 171px 30px 135px 23px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.bl{
+    height: 50px;
+    width: 60px;
+    font-size: 30px;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#000;
+    position: relative;
+}
+.bl::after{
+    position: absolute;
+    content: '';
+    font-size:20px;
+    color:#fff;
+    top: 0;
+    line-height: 2.8;
+    width: 5px;
+    height: 50px;
+}
+.bl:hover::after{
+    width: 80px;
+    content: '';
+    font-size: 20px;
+    background-color: #2785F7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    transition-duration: 1.1s;
+
+}
+
+.bl.project:hover::after{
+    content: 'Project';
+}
+.bl.account:hover::after{
+    content: 'Account';
+}
+.bl.groups:hover::after{
+    content: 'Groups';
+}
+.bl.cloud:hover::after{
+    content: 'Cloud';
+}
+.bl.setting:hover::after{
+    content: 'Setting';
+}
+
+
+.bl:hover{
+    color: #fff;
+    background-color: #2785F7;
+    border-radius: 10px;
+}
+
+/* Права сторона */
+.right_side{
+    width: 1142px;
+    height: 726px;
+   
+
+}    
+
+.rec{
+    margin-top: 80px;
+    margin-right: 42px;
+    width: 1100px;
+    height: 120px;
+    display: flex;
+}
+.rectangle1{
+    border-radius: 30px;
+    width: 530px;
+    height: 120px;
+    background-color: #fff;
+}
+.rectangle2{
+    width: 530px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+h6{
+    font-size: 22px;
+    margin-left: 38px;
+}
+h2{
+    margin-top: -100px;
+    font-size: 15px;
+    padding-left: 40px;
+    color: rgb(129, 129, 129);
+}
+h3{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+h4{
+    margin-top: -20px;
+    font-size: 15px;
+    padding-left: 40px;
+    color: rgb(129, 129, 129);
+    line-height: 1.5;
+}
+
+
+.rect{
+    width: 1100px;
+    margin-top: 35px;
+    height: 491px;
+    display: flex;
+    display: flex;
+}
+
+.rectangle3{
+    margin-left: 0px;
+}
+.rec31{
+    padding-top: 5px;
+    width:650px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 35px;
+}
+.rec32{
+    width:650px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+.img{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 120px;
+    height: 140px;
+}
+.rec322{
+    display: flex;
+}
+.text{
+    margin-left: 30px;
+}
+
+.rectangle4{
+    margin-top: 30px;
+    width: 420px;
+    height: 395px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.big_team{
+    width: 1250px;
+    height: 720px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+.group_one{
+    width: 292px;
+    height: 278px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgg{
+    margin-top: 50px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;   
+}
+.name{
+    padding-bottom: 40px;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    color: #C5C5C5;
+    text-align: center;
+}
+.sp{
+    font-weight: 700;
+    font-size:24px;
+}
+.table{
+    margin-left: 150px;
+    margin-top:125px;
+    height: 372px;
+    width: 1194px;
+}
+table{
+
+    width: 1050px;
+    height: 100%;
+    border-spacing: 0;
+    border-radius: 30px 30px;
+    overflow: hidden;
+}
+th{
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+}
+tr{
+    height: 60px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+tr:hover{
+    width: 1194px;
+    height: 60px;
+    background-color: #fff;
+}
+.mal{
+    padding: 7px ;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.mal:hover{
+    color:white;
+    background-color: #2785F7;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.group_one:hover{
+    background-color: #2785F7;
+    color:#fff;
+}
+.del:hover{
+    text-align: center;
+    padding:10px;
+    background-color: #fff;
+    color: #2785F7;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.group_one::after{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.group_one:hover::after{
+    content: url('https://icon-icons.com/icons2/692/PNG/32/seo-social-web-network-internet_262_icon-icons.com_61518.png');
+    background: #fff;
+    margin-top: -270px;
+    margin-left: 285px;
+}
+input[ type = "checkbox"]{
+    width: 25px;
+    height: 25px;
+}
+.for1{
+    margin-top:20px;
+    background-color:#fff;
+    border-radius: 20px;
+    width: 510px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.big_name{
+    margin-top: 25px;
+    font-size:25px;
+    font-weight: 700;
+}
+.under_big_name{
+    margin-top: 5px;
+    color: #616161;
+}
+.log{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 5px;
+    font-size: 48px;
+    text-align: center;
+    background-color: rgba(240, 62, 86, 0.849);
+    color:#fff;
+    border-radius: 50%;
+}
+.for2{
+    margin-top: 10px;
+    background-color:#fff;
+    border-radius: 20px;
+    width: 510px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+}
+.before_form{
+    display: flex;
+    flex-direction:  row;
+}
+.logg{
+    content: url('C:/Users/Admin/WAYUP/les5/img/icon48.png');
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color:  #2785F7;
+    border-radius: 50%;
+}
+input{
+    margin-top: 15px;
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 1px solid rgb(100, 100, 100);
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+input:focus{
+    outline: none;
+}
+input:hover{
+    border:2px solid #2785F7;
+}
+.form1{
+    margin-left: 30px;
+    margin-top:30px;
+    font-size: 18px;
+}
+label{
+    font-weight:700 ;
+}
+.btn{
+    margin-top: 10px;
+    cursor: pointer;
+    background: #2785F7;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    float:right;
+    margin-right: 30px;
+    border:none;
+}
+.btn:focus{
+    outline: none;
+}
+.for1_for2{
+    display: flex;
+    flex-direction: column;
+}
+.for3{
+    margin-top: 20px;
+    background-color:#fff;
+    margin-left: 20px;
+    border-radius: 20px;
+    width: 580px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+.loggg{
+    content: url('C:/Users/Admin/WAYUP/les5/img/icon24.png');
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color:  #f18203;
+    border-radius: 50%;
+}
+.form2{
+    margin-left: 30px;
+    margin-top:30px;
+    font-size: 18px;
+}
+#in{
+    width: 530px;
+    height: 50px;
+}
+.for_form3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form31{
+    width: 250px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+#inp{
+    width:250px;
+    height: 50px;
+}
+.form32{
+    width: 200px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.btnn{
+    margin-top: 20px;
+    cursor: pointer;
+    background: #2785F7;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 430px;
+    border:none;
+}
+.btnn:focus{
+    outline: none;
+}
